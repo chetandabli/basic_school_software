@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Result Software</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Result Software</h1>
+  
+  <div class="student-form">
+    <h2>Add Student</h2>
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="text" id="class" placeholder="Class" required>
+    <input type="text" id="section" placeholder="Section" required>
+    <button onclick="addStudent()">Add Student</button>
+  </div>
+
+  <div class="students-list">
+    <h2>Students List</h2>
+    <ul id="studentsList"></ul>
+  </div>
+
+  <div class="marks-list">
+    <h2>Marks List</h2>
+    <ul id="marksList"></ul>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
